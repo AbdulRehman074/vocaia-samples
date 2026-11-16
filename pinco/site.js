@@ -1,0 +1,8 @@
+(function(){
+  var t=document.querySelector('[data-nav-toggle]'),l=document.querySelector('[data-nav-links]');
+  if(t&&l){t.addEventListener('click',function(){var o=l.classList.toggle('is-open');t.setAttribute('aria-expanded',o?'true':'false');});}
+  document.querySelectorAll('form[data-demo-form]').forEach(function(f){
+    f.addEventListener('submit',function(e){e.preventDefault();var s=f.querySelector('[data-form-status]');
+      if(s){s.classList.add('is-visible');s.focus&&s.focus();}});
+  });
+})();

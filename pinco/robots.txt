@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pinco.vocaia.com/sitemap.xml

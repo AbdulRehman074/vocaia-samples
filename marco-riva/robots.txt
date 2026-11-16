@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://marcoriva.vocaia.com/sitemap.xml
